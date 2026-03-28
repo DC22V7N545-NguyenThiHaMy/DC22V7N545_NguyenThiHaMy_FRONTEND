@@ -55,6 +55,11 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+/* Chỉ reset font-weight trên element thực, KHÔNG áp lên ::before/::after */
+/* vì Font Awesome dùng pseudo-element để render icon */
+* {
   font-weight: normal;
 }
 
